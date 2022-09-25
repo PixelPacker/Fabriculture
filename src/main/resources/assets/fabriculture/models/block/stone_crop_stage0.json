@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "fabriculture:block/stone_crop_stage0"
+  }
+}

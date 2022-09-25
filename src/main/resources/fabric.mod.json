@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fabriculture",
+  "version": "${version}",
+  "name": "Fabriculture",
+  "description": "",
+  "authors": [
+    "PixelPacker"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fabriculture/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "pixelpacker.fabriculture.client.FabricultureClient"
+    ],
+    "main": [
+      "pixelpacker.fabriculture.Fabriculture"
+    ]
+  },
+  "mixins": [
+    "fabriculture.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
