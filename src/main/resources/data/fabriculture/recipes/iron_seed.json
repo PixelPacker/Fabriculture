@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_block"
+    },
+    "f": {
+      "item": "fabriculture:flux_dust"
+    },
+    "s": {
+      "tag": "minecraft:seeds"
+    }
+  },
+  "pattern": [
+    "fff",
+    "fif",
+    "fsf"
+  ],
+  "result": {
+    "item": "fabriculture:iron_seed"
+  }
+}

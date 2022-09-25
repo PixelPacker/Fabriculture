@@ -8,7 +8,5 @@ import net.minecraft.util.Identifier;
 import pixelpacker.fabriculture.Fabriculture;
 
 public class ItemGroupRegister {
-    public static final ItemGroup FABRICULTURE_GROUP = FabricItemGroupBuilder.build(new Identifier(Fabriculture.MODID, "general"), () -> new ItemStack(Items.WHEAT_SEEDS));
-
-    public void register(){}
+    public static final ItemGroup FABRICULTURE_GROUP = FabricItemGroupBuilder.build(new Identifier(Fabriculture.MODID, "general"), () -> new ItemStack(ItemRegister.IRON_ESSENCE));
 }

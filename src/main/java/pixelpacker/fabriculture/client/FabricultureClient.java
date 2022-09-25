@@ -11,8 +11,7 @@ import pixelpacker.fabriculture.registers.BlockRegister;
 public class FabricultureClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        //Example
-        //BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.STONE_CROP);
-        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegister.IRON_CROP);
+        BlockRenderLayerMapForClient blockRenderLayerMapForClient = new BlockRenderLayerMapForClient();
+        blockRenderLayerMapForClient.doLayerMaps();
     }
 }

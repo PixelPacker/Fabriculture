@@ -1,3 +1,7 @@
 {
-  "itemGroup.fabriculture.general": "Fabriculture"
+  "itemGroup.fabriculture.general": "Fabriculture",
+  "item.fabriculture.iron_essence": "Iron Essence",
+  "item.fabriculture.iron_seed": "Iron Seeds",
+  "item.fabriculture.flux_dust": "Flux Dust",
+  "block.fabriculture.flux_ore": "Flux Ore"
 }

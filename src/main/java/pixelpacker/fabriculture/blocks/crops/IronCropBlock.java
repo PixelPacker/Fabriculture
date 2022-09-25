@@ -1,4 +1,4 @@
-package pixelpacker.fabriculture.blocks;
+package pixelpacker.fabriculture.blocks.crops;
 
 import net.minecraft.item.ItemConvertible;
 import pixelpacker.fabriculture.blocks.baseclasses.FabricultureCropBlock;

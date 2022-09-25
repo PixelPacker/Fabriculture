@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "e": {
+      "item": "fabriculture:iron_essence"
+    }
+  },
+  "pattern": [
+    "eee",
+    "e e",
+    "eee"
+  ],
+  "result": {
+    "item": "minecraft:iron_ingot"
+  }
+}
